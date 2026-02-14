@@ -3,7 +3,7 @@
 This is a basic plugin template using CommonLibF4.
 
 ### Requirements
-* [XMake](https://xmake.io) [2.8.2+]
+* [XMake](https://xmake.io) [3.0.0+]
 * C++23 Compiler (MSVC or Clang-CL)
 
 ## Getting Started
