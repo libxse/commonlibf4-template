@@ -14,6 +14,10 @@ add_rules("plugin.vsxmake.autoupdate")
 
 -- define targets
 target("commonlibf4-template")
+    set_values("xse.plugin.name", "commonlibf4-template")
+    set_values("xse.plugin.author", "libxse")
+    set_values("xse.plugin.description", "F4SE plugin template using CommonLibF4")
+
     add_rules("commonlibf4.plugin", {
         name = "commonlibf4-template",
         author = "libxse",
